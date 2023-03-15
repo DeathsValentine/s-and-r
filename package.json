@@ -1,0 +1,31 @@
+{
+  "name": "deathsvalentine.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeathsValentine/deathsvalentine.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeathsValentine/deathsvalentine.github.io/issues"
+  },
+  "homepage": "https://github.com/DeathsValentine/deathsvalentine.github.io#readme",
+  "dependencies": {
+    "@astrojs/react": "^1.2.2",
+    "@fontsource/quicksand": "^4.5.12",
+    "astro": "^1.9.2",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "description": ""
+}
