@@ -1,0 +1,3 @@
+to have tailwind updating:
+
+npx tailwindcss -i ./src/stylesheets/default.css -o ./src/stylesheets/output.css --watch
