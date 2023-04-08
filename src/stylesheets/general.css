@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    position: relative;
+    padding-top: 10px;
+    height: 145px;
+    box-sizing: border-box;
+    /* border: 1px solid; /*this is only for testing */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;       /* enable the "border-box effect" everywhere */
+}
+
+body{
+    position: relative;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100%;
+    font-size: 20px;
+    overflow: auto;
+    padding-bottom: 150px;
+    /* border: 1px solid; /*this is only for testing */
+}
+
+footer{
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    bottom: 0;
+}
