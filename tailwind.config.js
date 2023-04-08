@@ -8,11 +8,12 @@ daisyui: {
       {
         custom: {
           ...require('daisyui/src/colors/themes')['data-theme=dark'],
-          primary: "white",
-          secondary: "#f6d860",
+          primary: "#d512b7",
+          secondary: "#3a9ecb",
           accent: "#37cdbe",
           neutral: "#191d24",
           "base-100": "#161616",
+          // "base-100": "#2d2d2d",
         },
       }
     ],
