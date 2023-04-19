@@ -20,7 +20,13 @@ daisyui: {
   },
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custompink': '#d512b7',
+        'customblue': '#38a1cc',
+        'customheader' : '#191919',
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

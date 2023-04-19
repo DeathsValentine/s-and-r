@@ -6,7 +6,7 @@ html{
 header{
     position: relative;
     padding-top: 10px;
-    height: 145px;
+    height: 130px;
     box-sizing: border-box;
     /* border: 1px solid; /*this is only for testing */
 }
@@ -26,6 +26,10 @@ body{
     overflow: auto;
     padding-bottom: 150px;
     /* border: 1px solid; /*this is only for testing */
+}
+
+hr{
+    width: 90%;
 }
 
 footer{
