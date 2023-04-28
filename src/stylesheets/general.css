@@ -32,6 +32,10 @@ hr{
     width: 90%;
 }
 
+#list-section{
+    padding-bottom: 10px;
+}
+
 footer{
     color: white; 
     font-family: 'Quicksand', sans-serif;

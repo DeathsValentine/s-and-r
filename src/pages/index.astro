@@ -4,16 +4,63 @@ import MyLayout from '../layouts/layout.astro'
 
 <MyLayout title='Home'>
     <center>
-    <div id="home-cont" class="flex justify-center align-center">
-        <img src="../sf.jpg" class="z-0">
-        <div id="text-cont" class="flex z-1 absolute flex-col">
-            <p class="text-6xl ">S & R Freelance</p>
-            <p class="">short blurb</p>
+        <div id="home-cont" class="flex justify-center align-center">
+            <!-- <img src="../sf.jpg" class="z-0"> -->
+            <div id="text-cont" class="flex z-1 flex-col">
+                <p class="text-6xl ">S & R Freelance</p>
+                <p class="">short blurb</p>
+            </div>
         </div>
 
-    </div>
+        <div id="skills" class="flex-auto">
+            <p class="text-3xl font-semibold underline">Experience</p>
 
-        
+            <div id="list-section">
+                <p class="text-2xl">Languages</p>
+                <ul class="list-disc list-inside text-base">
+                    <li>Javascript</li>
+                    <li>Java</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>C</li>
+                    <li>Typescript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+            <div id="list-section">
+                <p class="text-2xl">Version Control</p>
+                <ul class="list-disc list-inside text-base">
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div id="list-section">
+                <p class="text-2xl">Libraries</p> <!-- maybe change this -->
+                <ul class="list-disc list-inside text-base">
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
+                </ul>
+            </div>
+
+            <div id="list-section">
+                <p class="text-2xl">Cloud Technology</p>
+                <ul class="list-disc list-inside text-base">
+                    <li>AWS</li>
+                </ul>
+            </div>
+
+            <div id="list-section">
+                <p class="text-2xl">Database Management</p>
+                <ul class="list-disc list-inside text-base">
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
     </center>
-    
 </MyLayout>
